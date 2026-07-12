@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Lender</title>
+</head>
+<body>
+
+<h2>Smart Lender</h2>
+
+<form action="/predict" method="post">
+
+<label>Gender</label><br>
+<input type="text" name="gender" placeholder="Male or Female" required><br><br>
+
+<label>Married</label><br>
+<input type="text" name="married" placeholder="Yes or No" required><br><br>
+
+<label>Dependents</label><br>
+<input type="text" name="dependents" placeholder="0, 1, 2 or 3+" required><br><br>
+
+<label>Education</label><br>
+<input type="text" name="education" placeholder="Graduate or Not Graduate" required><br><br>
+
+<label>Self Employed</label><br>
+<input type="text" name="self_employed" placeholder="Yes or No" required><br><br>
+
+<label>Applicant Income</label><br>
+<input type="number" name="applicant_income" required><br><br>
+
+<label>Co Applicant Income</label><br>
+<input type="number" name="coapplicant_income" required><br><br>
+
+<label>Loan Amount</label><br>
+<input type="number" name="loan_amount" required><br><br>
+
+<label>Loan Amount Term</label><br>
+<input type="number" name="loan_term" required><br><br>
+
+<label>Credit History</label><br>
+<input type="text" name="credit_history" placeholder="Good or Bad" required><br><br>
+
+<label>Property Area</label><br>
+<input type="text" name="property_area" placeholder="Urban, Semiurban or Rural" required><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+</body>
+</html>
